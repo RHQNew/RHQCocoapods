@@ -23,6 +23,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		97434D42267740180054B546 /* RHFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97434D41267740180054B546 /* RHFirstViewController.m */; };
 		F3DE19B93102764CC0C3B73F /* Pods_RHHomeModule_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03361412C49917ED7204E369 /* Pods_RHHomeModule_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -59,12 +60,14 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		667DB7739FCF0109F7261D81 /* Pods-RHHomeModule_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RHHomeModule_Tests.release.xcconfig"; path = "Target Support Files/Pods-RHHomeModule_Tests/Pods-RHHomeModule_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		73620CE60D1E9C4434363877 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		73620CE60D1E9C4434363877 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		87FFA1AC1FD3FE4C598D7E43 /* RHHomeModule.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = RHHomeModule.podspec; path = ../RHHomeModule.podspec; sourceTree = "<group>"; };
+		87FFA1AC1FD3FE4C598D7E43 /* RHHomeModule.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RHHomeModule.podspec; path = ../RHHomeModule.podspec; sourceTree = "<group>"; };
+		97434D40267740180054B546 /* RHFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RHFirstViewController.h; sourceTree = "<group>"; };
+		97434D41267740180054B546 /* RHFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RHFirstViewController.m; sourceTree = "<group>"; };
 		A71F498BB8D1C2500EA3AF6D /* Pods-RHHomeModule_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RHHomeModule_Example.debug.xcconfig"; path = "Target Support Files/Pods-RHHomeModule_Example/Pods-RHHomeModule_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B66C1B26375ABCC0C78E2BFD /* Pods-RHHomeModule_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RHHomeModule_Tests.debug.xcconfig"; path = "Target Support Files/Pods-RHHomeModule_Tests/Pods-RHHomeModule_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D6285D63BC94A760C1107076 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D6285D63BC94A760C1107076 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		E16EAA26814E63CF59218E5E /* Pods_RHHomeModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RHHomeModule_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E83DF929A6C8A4826559A092 /* Pods-RHHomeModule_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RHHomeModule_Example.release.xcconfig"; path = "Target Support Files/Pods-RHHomeModule_Example/Pods-RHHomeModule_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -140,6 +143,8 @@
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				97434D40267740180054B546 /* RHFirstViewController.h */,
+				97434D41267740180054B546 /* RHFirstViewController.m */,
 			);
 			name = "Example for RHHomeModule";
 			path = RHHomeModule;
@@ -193,7 +198,6 @@
 				B66C1B26375ABCC0C78E2BFD /* Pods-RHHomeModule_Tests.debug.xcconfig */,
 				667DB7739FCF0109F7261D81 /* Pods-RHHomeModule_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +262,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -346,11 +351,15 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-RHHomeModule_Example/Pods-RHHomeModule_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/RHHomeModule/RHHomeModule.framework",
+				"${BUILT_PRODUCTS_DIR}/RHMacroAndCategoryModule/RHMacroAndCategoryModule.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RHHomeModule.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RHMacroAndCategoryModule.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -367,6 +376,7 @@
 				6003F59E195388D20070C39A /* RHAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* RHViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				97434D42267740180054B546 /* RHFirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

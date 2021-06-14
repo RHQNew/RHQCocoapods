@@ -4,6 +4,7 @@ platform :ios, '9.0'
 
 target 'RHHomeModule_Example' do
   pod 'RHHomeModule', :path => '../'
+  pod 'RHMacroAndCategoryModule', :path => '../../RHMacroAndCategoryModule'
 
   target 'RHHomeModule_Tests' do
     inherit! :search_paths
