@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'RHHomeModule_Example' do
+  pod 'RHHomeModule', :path => '../'
+
+  target 'RHHomeModule_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
