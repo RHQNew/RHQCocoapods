@@ -1,0 +1,6 @@
+framework module RHQCocoapods {
+  umbrella header "RHQCocoapods-umbrella.h"
+
+  export *
+  module * { export * }
+}
